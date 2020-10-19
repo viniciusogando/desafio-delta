@@ -1,0 +1,72 @@
+#container {
+    background-color: black;
+}
+
+#logo {
+    width: 4%;
+    margin-left: 3%;
+}
+
+#image-road {
+    width: 100%;
+    height: 400px;
+}
+
+.title {
+    position: absolute;
+    color: #FFFFFF;
+    top: 15%;
+    left: 10%;
+    font-size: 72px;
+    width: 60%;
+}
+
+#yellow {
+    background-color: #FFC502;
+    height: 250px;
+}
+
+body {
+    font-family: Arial;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color:black;
+    padding: 10px;
+    height: 35px;
+}
+
+.btn-abrir {
+    color:white;
+    font-size: 25px;
+    float: right
+}
+
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #FFC502;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a {
+    color: black;
+    font-size: 22px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a:hover {
+    color: white;
+    background-color:black;
+}
